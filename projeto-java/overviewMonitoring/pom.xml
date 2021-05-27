@@ -7,8 +7,8 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
     <dependencies>     
         <!-- dependências da API Looca -->
@@ -64,7 +64,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>overviewMonitoring.view.TelaLogin</mainClass>
+                            <mainClass>overviewmonitoringz.view.TelaLogin</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -80,4 +80,5 @@
             </plugin>
         </plugins>
     </build>
+    <name>overview-monitoring</name>
 </project>
