@@ -64,7 +64,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>overviewmonitoringz.view.TelaLogin</mainClass>
+                            <mainClass>overviewMonitoring.view.TelaLogin</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -80,5 +80,4 @@
             </plugin>
         </plugins>
     </build>
-    <name>overview-monitoring</name>
 </project>

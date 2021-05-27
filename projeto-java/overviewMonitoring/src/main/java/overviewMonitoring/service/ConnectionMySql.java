@@ -14,20 +14,20 @@ import org.apache.commons.dbcp2.BasicDataSource;
 public class ConnectionMySql {
     // Atributo da classe - para ajudar na conexao com o BD
 
-    //private BasicDataSource dataSource;
+    private BasicDataSource dataSource;
 
     //Construtor 
-    //public ConnectionMySql() {
+    public ConnectionMySql() {
 
-      //  this.dataSource = new BasicDataSource();
-        //this.dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-       // this.dataSource.setUrl("jdbc:mysql://localhost:3306/Sprint3BD?useTimezone=true&serverTimezone=UTC"); 
-       // this.dataSource.setUsername("root");
-        //this.dataSource.setPassword("#Gfgrupo5"); 
+        this.dataSource = new BasicDataSource();
+        this.dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+        this.dataSource.setUrl("jdbc:mysql://localhost:3306/Sprint3BD?useTimezone=true&serverTimezone=UTC"); 
+        this.dataSource.setUsername("root");
+        this.dataSource.setPassword("#Gfgrupo5"); 
     }
 
     //Getter do DataSource
-    //public BasicDataSource getDataSource() {
-      //  return dataSource;
-   // }
-//}
+    public BasicDataSource getDataSource() {
+        return dataSource;
+    }
+}
